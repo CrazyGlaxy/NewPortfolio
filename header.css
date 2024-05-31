@@ -294,7 +294,7 @@ header {
     .desc-profile {
 
         /* border: 2px solid red; */
-        margin-left: ;
+        /* margin-left: ; */
         flex-direction: column;
         width: 90%;
         /* justify-content: center; */
@@ -308,14 +308,18 @@ header {
 
     }
 
+    
 
+    .desc-container{
+        font-size: 30px;
+        line-height: 41.33px;
+    }
 
     .desc {
         /* border: 2px solid red; */
         padding: 5%;
         width: 90%;
         justify-content: center;
-
     }
 
     .desc-star img {
