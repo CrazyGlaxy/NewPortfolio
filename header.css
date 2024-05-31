@@ -1,0 +1,397 @@
+header {
+    background-color: #1E1E1E;
+    height: 100%;
+}
+
+.nav-container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    /* border: 2px solid red; */
+    color: #FD6F00;
+    width: 30%;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+
+}
+
+.nav-links {
+
+    display: flex;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    width: 70%;
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.89px;
+    letter-spacing: 0.03em;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.nav-links-download {
+    background-color: #FD6F00;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+/* desk section */
+
+.desc-profile {
+    padding: 1%;
+    display: flex;
+    /* justify-content: \; */
+    /* align-items: ; */
+}
+
+.desc {
+    /* border: 2px solid red; */
+    padding: 5%;
+    width: 50%;
+}
+
+.desc-container {
+    color: whitesmoke;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.desc-container p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #FFFFFF80;
+}
+
+.desc-star {
+    /* height: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.dhaka-line {
+    display: flex;
+    gap: 7px;
+}
+
+.dhaka {
+    color: #FD6F00;
+}
+
+.dgw {
+    margin-top: 15px;
+    color: whitesmoke;
+    display: flex;
+    gap: 15px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28.44px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+
+}
+
+.dgw img {
+    /* border: 5px solid teal; */
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    align-items: ;
+}
+
+.desc-tag {
+    margin-top: 30px;
+}
+
+.photoProfile {
+
+    background-color: #2b262600;
+    /* border: 5px solid blue; */
+
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(#FD6F00, rgba(255, 192, 192, 0));
+    justify-content: space-between;
+}
+
+.desc-social {
+
+    /* border: 5px green; */
+    display: flex;
+    padding: 30px 3px;
+    gap: 30px;
+    justify-content: start;
+
+}
+
+.desc-photo1 {
+    width: 100%;
+    justify-content: top;
+    align-items: center;
+
+}
+
+.desc-photo1 img {
+
+    /* border: 5px solid green; */
+    width: 100%;
+
+}
+
+.portfolio-tag {
+    color: white;
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+
+}
+
+.tag-down {
+
+    height: 77px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF1A;
+    justify-content: start;
+    border-radius: 100px;
+    font-size: 28px;
+
+}
+
+.tag-down p {
+    /* border: 5px solid #00fd04; */
+    margin-left: 10px;
+    text-align: ;
+}
+
+.tag-up {
+    /* border: 5px solid #00fd04; */
+    width: 160px;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    background-color: #FD6F00;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+
+
+
+/* about start */
+
+.about-me {
+    color: whitesmoke;
+    margin: 0%;
+    padding: 5%;
+    padding-bottom: 50px;
+}
+
+.about-me h1 {
+
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+
+.about-me p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF80;
+
+}
+
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondLine{
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+
+.secondLine p{
+    text-align: end;
+}
+
+
+/* about end */
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .nav-logo {
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .nav-links {
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(77, 64, 47);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+
+    .desc-profile {
+
+        /* border: 2px solid red; */
+        margin-left: ;
+        flex-direction: column;
+        width: 90%;
+        /* justify-content: center; */
+        /* align-items: center; */
+
+
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        margin: 18px;
+
+    }
+
+
+
+    .desc {
+        /* border: 2px solid red; */
+        padding: 5%;
+        width: 90%;
+        justify-content: center;
+
+    }
+
+    .desc-star img {
+        width: 30px;
+        align-items: center;
+        margin: 0%;
+        height: 30px;
+    }
+
+    .dhaka-line {
+        flex-direction: column;
+    }
+
+    .dgw {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dgw {
+        align-items: center;
+    }
+
+    .desc-tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 18px;
+    }
+
+    .tag-up {
+        width: 200px;
+    }
+
+    .tag-down {
+        width: 300px;
+    }
+
+    .desc-social {
+        /* border: 5px solid green; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 18px;
+
+    }
+
+    .photoProfile {
+
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+
+
+.firstLine{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondLine{
+    background-color:  #FFFFFF1A;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+
+.secondLine p{
+    text-align: center;
+}
+
+}

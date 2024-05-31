@@ -1,0 +1,75 @@
+footer {
+    padding: 20px;
+    background-color: #000000;
+
+}
+
+footer p {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: whitesmoke;
+
+}
+
+.foot-logo {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FD6F00;
+    padding: 20px;
+
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot-social {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.foot-note {
+    background-color:#121212;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.foot-note p {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+
+    .foot-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-note p {
+        font-size: 15px;
+    }
+}
