@@ -43,8 +43,9 @@ footer p {
 }
 
 .foot-note {
+    /* border: 1px solid red; */
     background-color:#121212;
-    padding: 20px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
     gap: 6px;
@@ -64,6 +65,11 @@ footer p {
 
 @media only screen and (min-width:200px) and (max-width:576px) {
 
+    .foot-note{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .foot-links {
         flex-direction: column;
         align-items: center;
